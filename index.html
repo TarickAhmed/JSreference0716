@@ -1,0 +1,121 @@
+// Single line comment
+
+/* 
+   Multi-line
+   comment
+*/
+
+// Variables
+let variableName = value; // Mutable variable
+const constantName = value; // Immutable constant
+var oldStyleVariable = value; // Function-scoped variable (avoid using)
+
+// Data Types
+let number = 10;
+let string = "Hello, world!";
+let boolean = true;
+let array = [1, 2, 3];
+let object = { key: "value" };
+let nullValue = null;
+let undefinedValue = undefined;
+
+// Operators
+let sum = 1 + 1;
+let difference = 2 - 1;
+let product = 2 * 3;
+let quotient = 10 / 2;
+let remainder = 15 % 4;
+let concatenation = "Hello" + " " + "World";
+
+// Control Structures
+if (condition) {
+  // code block
+} else if (anotherCondition) {
+  // code block
+} else {
+  // code block
+}
+
+for (let i = 0; i < array.length; i++) {
+  // code block
+}
+
+while (condition) {
+  // code block
+}
+
+// Functions
+function functionName(parameter1, parameter2) {
+  // code block
+  return value; // optional return statement
+}
+
+// Arrow Functions (ES6+)
+const arrowFunction = (parameter1, parameter2) => {
+  // code block
+  return value; // optional return statement
+};
+
+// Arrays
+array.push(element); // add element to end
+array.pop(); // remove element from end
+array.shift(); // remove element from beginning
+array.unshift(element); // add element to beginning
+
+// Objects
+object.key = "new value"; // update value
+delete object.key; // delete property
+
+// Loops
+array.forEach(item => {
+  // code block
+});
+
+for (let key in object) {
+  // code block
+}
+
+// Promises (ES6+)
+const promise = new Promise((resolve, reject) => {
+  // async code
+  if (success) {
+    resolve(result);
+  } else {
+    reject(error);
+  }
+});
+
+promise.then(result => {
+  // handle success
+}).catch(error => {
+  // handle error
+});
+
+// Classes (ES6+)
+class ClassName {
+  constructor(parameter) {
+    this.property = parameter;
+  }
+
+  method() {
+    // code block
+  }
+}
+
+// Modules (ES6+)
+// Exporting module
+export const functionName = () => {
+  // code block
+};
+
+// Importing module
+import { functionName } from './module';
+
+// Error Handling
+try {
+  // code block
+} catch (error) {
+  // handle error
+} finally {
+  // code that will execute regardless of error
+}
